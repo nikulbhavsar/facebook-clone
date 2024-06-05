@@ -4,8 +4,215 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forgot Password</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            height: 580px;
+            width: 100%;
+            float: left;
+            background-color: #f0f2f5;
+        }
+        .main1{
+            height: 10%;
+            width: 100%;
+            float: left;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .h1{
+            height: 100%;
+            width: 40%;
+            float: left;
+            border-radius: 5px;
+            /* background-color: rgb(113, 125, 42); */
+        }
+        .h1 h1{
+            color: #0050e7;
+            font-family: Bahnschrift;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .form{
+            height: 100%;
+            width: 60%;
+            float: left;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .h2{
+            height: 100%;
+            width: 70%;
+            float: left;
+            border-radius: 5px;
+            /* background-color: rgb(125, 42, 100); */
+        }
+            .form_input{
+            width: 35%;
+	        height: 30px;
+	        margin-top: 13px;
+            margin-left: 20px;
+            font-size: 17px;
+            border-radius: 5px;
+            text-indent: 20px;
+            font-family:sans-serif;
+            border: 0.8px solid #337AFF;
+            padding: 3px;
+        }
+
+        .btn_log{
+            width: 15%;
+	        height: 37px;
+	        margin-top: 2px;
+            margin-left: 10px;
+            background-color:#337AFF;
+            color: white;
+            cursor: pointer;
+            font-family: Bahnschrift SemiBold;
+            font-size: 17px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn_log a{
+            text-decoration: none;
+            color: white;
+        }
+        
+
+        .h3{
+            height: 100%;
+            width: 30%;
+            float: left;
+            border-radius: 5px;
+            background-color:white;
+        }
+        .h3 p{
+            margin-top: 20px;
+            margin-left: 30px; 
+            font-family: sans-serif;
+            font-size: 15px; color:#0050e7; 
+            text-decoration: none;
+        }
+
+        .h3 a{
+            text-decoration: none;
+        }
+
+        .sec_div{
+            height: 45%;
+            width: 40%;
+            float: left;
+            background-color: white;
+            border-radius: 5px;
+            margin-left: 30%;
+            margin-top: 10%;
+        }
+
+        .d1{
+            height: 24%;
+            width: 100%;
+            float: left;
+            /* background-color: burlywood; */
+        }
+
+        .d1 h3{
+            margin-left: 20px;
+            margin-top: 15px;
+            font-family: sans-serif;
+
+        }
+        .d1 hr{
+            margin-top: 25px;
+        }
+
+        .d2{
+            height: 52%;
+            width: 100%;
+            float: left;
+            /* background-color: rgb(107, 43, 176); */
+        }
+
+        .d2 p{
+            font-size: 20px;
+            margin-left: 20px;
+            margin-top: 15px;
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+
+        .d2 input{
+            font-family: sans-serif;
+            height: 10%;
+            width: 85%;
+            padding: 20px;
+            margin:10px 0px 0px 20px;
+            border-radius: 5px;
+            border: 0.5px solid blue;
+            font-size: larger;
+        }
+
+        .d2 hr{
+            margin-top: 7px;
+        }
+        .d3{
+            height: 24%;
+            width: 100%;
+            float: left;
+            /* background-color: rgb(43, 176, 45); */
+        }
+
+        .d3 button{
+            height: 20%;
+            width: 15%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="main1">
+            <div class="h1"><h1>facebook</h1></div>
+            <div class="form">
+            <div class="h2">
+                <form action="">
+                <input class="form_input" type="text" placeholder="Email or phone">
+                
+                <input class="form_input" type="text" placeholder="Password">
+
+                <button class="btn_log"><a href="login.html">Log in</a></button>
+            </form>
+            </div>
+            <div class="h3"><a href="forgot.html"><p>Forgotten account?</p></a></div>
+        </div>
+        </div>
+        <div class="sec_div">
+            <div class="d1"><h3>Find Your Account</h3><hr></div>
+            <div class="d2">
+                <p>Please enter your email address or mobile number to search <br>for your account.</p>
+
+                <form action="">
+                    <input type="text" placeholder="Email address or mobile number">
+                </form><hr>
+            </div>
+            <div class="d3">
+                <form action="">
+                    <button style="margin-left: 64%;">Cancel</button>
+                    <button style="margin-left: 10px; background-color: #0050e7; color: white;">Search</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
 </body>
 </html>
