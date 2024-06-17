@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forgot Password</title>
+    <script src="validate.js" defer></script>
     <style>
         *{
             margin: 0px;
@@ -190,12 +191,13 @@
             <div class="h1"><h1>facebook</h1></div>
             <div class="form">
             <div class="h2">
-                <form action="">
-                <input class="form_input" type="text" placeholder="Email or phone">
+                <form action=" " id="loginForm" >
+                <input class="form_input" id="username" type="text" placeholder="Email or phone">
                 
-                <input class="form_input" type="text" placeholder="Password">
+                <input class="form_input" id="password" type="password" placeholder="Password">
 
-                <button class="btn_log"><a href="login.html">Log in</a></button>
+                <button class="btn_log" type="submit">Log in</button>
+                <!-- <a href="login.html">Log in</a> -->
             </form>
             </div>
             <div class="h3"><a href="forgot.html"><p>Forgotten account?</p></a></div>
@@ -206,8 +208,8 @@
             <div class="d2">
                 <p>Please enter your email address or mobile number to search <br>for your account.</p>
 
-                <form action="">
-                    <input type="text" placeholder="Email address or mobile number">
+                <form action="" id="searchForm" onsubmit="return validateForm()">
+                    <input type="text" id="searchInput" placeholder="Email address or mobile number">
                 </form><hr>
             </div>
             <div class="d3">
