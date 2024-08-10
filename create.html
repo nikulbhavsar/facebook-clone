@@ -4,153 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    
+    <link rel="stylesheet" href="fb.css">
 	<script src="https://kit.fontawesome.com/8d191d229d.js" crossorigin="anonymous"></script>
     <style>
         *{
             margin: 0px;
             padding: 0px;
         }
-        .div_main{
-            background-color:white;
-            float: left; margin-top:70px;
-            height: 85%; width: 35%;
-            margin-left: 32%;
-            border-radius:5px;
-        }
-        .div1{
-         float: left;
-            width: 100%; height: 14%;
-        }
-        .div1 hr{
-            margin-top: 10px;
-        }
         
-
-        .div2{
-            float: left;
-            width: 100%; height: 20%;
-        }
-
-        .form_input{
-            width: 90%;
-	        height: 30px;
-	        margin-top: 13px;
-            margin-left: 20px;
-            font-family: inherit;
-            font-size: 17px;
-            border-radius: 5px;
-            text-indent: 20px;
-            font-family:sans-serif;
-            border: 0.8px solid #337AFF;
-            padding: 3px;
-        }
-        
-        .div3{
-            float: left;
-            width: 100%; height: 14%;
-        }
-
-        .div3 label{
-            margin-left: 20px;
-        
-        }
-        .div3 select{
-            width: 26%;
-	        height: 40px;
-	        margin-top: 13px;
-            margin-left: 20px;
-            font-size: 17px;
-            border-radius: 5px;
-            font-family:sans-serif;;
-            border: 0.8px solid #337AFF;
-            padding: 3px;
-        }
-
-        .div4{
-
-            float: left;
-            width: 100%; height: 12%;
-        }
-
-        .div4 input{
-            width: 40%;
-	        height: 30px;
-	        margin-top: 13px;
-            margin-left: 19px;
-            font-family: inherit;
-            font-size: 17px;
-            border-radius: 5px;
-            text-indent: 20px;
-            font-family:sans-serif;;
-            border: 0.8px solid #337AFF;
-            padding: 3px;
-
-        }
-
-        .div5{
-            float: left;
-            width: 100%; height: 14%;
-        }
-        .div5 label{
-            margin-left: 10px;
-        }
-        .Gender{
-            border: 0.5px solid #337AFF; 
-            border-radius: 5px; margin-top: 
-            10px;margin-left: 19px;padding:2px;  
-            height: 50%; width: 25%; 
-            float: left;background-color: white
-        }
-
-        .div6{
-            float: left;
-            width: 90%; height: 24%;
-            margin-left: 20px;
-        }
-        .div6 p{
-            font-size: small;
-            margin-top: 5px;
-        }
-        .div6 p a{
-            color: #0f3987;
-            text-decoration: none;
-        }
-
-
-        .btn_create{
-    width: 48%;
-	height: 35px;
-	margin-top: 10px;
-    margin-left: 110px;
-    background-color: #02a400;
-   
-    font-size: 17px;
-    border-radius: 5px;
-    border: none;
-        }
-        .btn_create a{
-        text-decoration: none;
-    cursor: pointer;
-    font-family: Bahnschrift SemiBold;
-    font-size: 17px;
-     text-decoration: none;
-    cursor: pointer;
-    font-family: Bahnschrift SemiBold;
-    color: white;
-    font-weight: bold;
-        }
     </style>
 </head>
 <body>
     <div style="background-color: #f0f2f5;float: left; width: 100%; height: 650px;">
-        <div class="div_main">
-            <div class="div1"> <h1 style="margin-left: 20px;">Sign Up</h1><p style="margin-left: 20px;">It's quick and easy.</p><hr></div>
-                <div class="div2">
-                    <input class="form_input" type="text" placeholder="Email address or phone number"><br>
-                    <input class="form_input" type="password" placeholder="Password">
+        <div class="create_div_main">
+            <div class="create_div1"> <h1 style="margin-left: 20px;">Sign Up</h1><p style="margin-left: 20px;">It's quick and easy.</p><hr></div>
+                <div class="create_div2">
+                    <input class="create_form_input" type="text" placeholder="Email address or phone number"><br>
+                    <input class="create_form_input" type="password" placeholder="Password">
                 </div>
-                    <div class="div3">
+                    <div class="create_div3">
                         <label for="">Date of birth <i class="fas fa-question-circle"></i></label>
                         <br><select>
                             <option>1</option> <option>2</option> <option>3</option>
@@ -187,23 +59,23 @@
                             <option>1991</option> <option>1990</option> <option>1989</option>
                         </select>
                     </div>
-                        <div class="div4" >
+                        <div class="create_div4" >
                             <input type="text" placeholder="First Name" required>
                             <input type="text" placeholder="Surname" required>
                         </div>
-                            <div class="div5">
+                            <div class="create_div5">
                                <div style=" margin-left: 10px;"><label>Gender <i class="fas fa-question-circle"></i></label></div> 
-                            <div class="Gender">
+                            <div class="create_Gender">
                                  <label> Male<input style="margin-left: 50px; margin-top: 10px;" type="radio"></label>
                             </div>
-                            <div class="Gender">
+                            <div class="create_Gender">
                                 <label> Female<input style="margin-left: 40px; margin-top: 10px;" type="radio"></label>
                             </div>
-                            <div class="Gender" >
+                            <div class="create_Gender" >
                                 <label> Other<input style="margin-left: 50px; margin-top: 10px;" type="radio"></label>
                             </div>
                             </div>
-                                <div class="div6">
+                                <div class="create_div6">
                                     <p>People who use our service may have uploaded your contact information
                                          to Facebook.<a href="https://www.facebook.com/help/637205020878504"> Learn more.</a></p>
                                          <p>By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update"> Terms</a>, 
@@ -211,7 +83,7 @@
                                                 <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0">Privacy Policy</a> and 
                                                 <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0"> Cookies Policy.</a>
                                                  You may receive SMS notifications from us and can opt out at any time.</p>
-                                         <button class="btn_create"><a class="link" href="login.html">
+                                         <button class="create_btn_create"><a class="link" href="index.html">
                                             Sign Up</a>
                                 </div>
         </div>

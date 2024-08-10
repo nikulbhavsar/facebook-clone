@@ -9,6 +9,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         window.location.href = "main.html";
     } else {
         alert("Login Failed.");
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     }
 });
